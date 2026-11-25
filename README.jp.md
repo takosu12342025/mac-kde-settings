@@ -1,3 +1,4 @@
+# 記入 使用してたテーマに設定アプリが来ちゃった（（泣））
 [🇬🇧English](README.md)
 # mac-kde-settings
 これはmac osのような外観を持つGTK4ベースのKDE設定画面です\
