@@ -5,6 +5,20 @@ This is a KDE configuration based on GTK4 that features a macOS-like appearance.
 ![settings-en](./images/mac-kde-settings-en.png)
 
 (I am using the [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) theme.)
+
+Dependencies
+
+Installation
+```bash
+git clone https://github.com/takosu12342025/mac-kde-settings
+cd mac-kde-settings
+bash install.sh
+```
+Uninstallation
+```bash
+cd mac-kde-settings
+bash uninstall.sh
+```
 # Dependencies
 Required runtime and UI libraries (the application will not launch without these):\
 
