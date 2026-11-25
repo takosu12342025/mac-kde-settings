@@ -2,7 +2,7 @@
 # mac-kde-settings
 これはmac osのような外観を持つGTK4ベースのKDE設定画面です\
 このアプリはGTK4とpythonでできており、\
-mac osのUIに印象を受けたアプリケーションです。
+mac osのUIをオマージュしたアプリケーションです。
 # 画像
 ![設定jp](/images/mac-kde-settings-jp.png)\
 (自分は [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) テーマを使用しています。)
@@ -13,3 +13,6 @@ mac osのUIに印象を受けたアプリケーションです。
 • PyGObject (python-gobject / python3-gi) — PythonからGTKを動かすブリッジ\
 • GTK 4 (gtk4 / libgtk-4-1)\
 • Libadwaita (libadwaita / libadwaita-1-0) — macOS風のサイドバーや角丸カード、ダイアログを描画するライブラリ
+# 注意
+このアプリはAIを使用して作られています
+
