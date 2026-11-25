@@ -14,3 +14,6 @@ Required runtime and UI libraries (the application will not launch without these
 • PyGObject (python-gobject / python3-gi) — A bridge for using GTK with Python\
 • GTK 4 (gtk4 / libgtk-4-1)\
 • Libadwaita (libadwaita / libadwaita-1-0) — A library used for rendering macOS-style elements, such as sidebars, rounded-corner cards, and dialogs
+# Note
+This app was created using AI.\
+It was translated using Google Translate.\
