@@ -6,6 +6,34 @@ mac osのUIをオマージュしたアプリケーションです。
 # 画像
 ![設定jp](/images/mac-kde-settings-jp.png)\
 (自分は [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) テーマを使用しています。)
+
+# インストール＆アンインストール
+依存パッケージ\
+pacman
+```bash
+sudo pacman -S python-gobject gtk4 libadwaita
+```
+apt
+```bash
+sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1
+```
+dnf
+```bash
+sudo dnf install python3-gobject gtk4 libadwaita
+```
+インストール方法
+```bash
+git clone https://github.com/takosu12342025/mac-kde-settings
+cd mac-kde-settings
+bash install.sh
+```
+アンインストール方法
+```bash
+cd mac-kde-settings
+bash uninstall.sh
+```
+
+
 # 依存関係
 必須のランタイム・UIライブラリ（これがないと起動しない）\
 
