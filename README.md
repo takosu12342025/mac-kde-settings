@@ -4,6 +4,7 @@ This is a GTK4-based KDE configuration with a macOS-like look.\
 This application is built using GTK4 and Python, and it replicates the user interface (UI) style of macOS.\
 
 # images
+![settings-en](./images/mac-kde-settings-en.png)
 
 (I am using the [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) theme.)
 # Dependencies
