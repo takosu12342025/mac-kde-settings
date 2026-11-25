@@ -1,4 +1,4 @@
-[日本語](README.ja.md)
+[日本語](README.jp.md)
 # mac-kde-settings
 This is a GTK4-based KDE configuration with a macOS-like look.\
 This application is built using GTK4 and Python, and it replicates the user interface (UI) style of macOS.\
