@@ -1,4 +1,3 @@
-# Note: A settings app has appeared for the theme I was using... (crying)
 [🇯🇵日本語](README.jp.md)
 # mac-kde-settings
 This is a KDE configuration based on GTK4 that features a macOS-like appearance. The application is built using GTK4 and Python,\ and it pays homage to the macOS user interface (UI) style.
