@@ -2,7 +2,8 @@
 # mac-kde-settings
 This is a KDE configuration based on GTK4 that features a macOS-like appearance. The application is built using GTK4 and Python,\ and it pays homage to the macOS user interface (UI) style.
 # images
-![settings-en](./images/mac-kde-settings-en.png)
+![settings-en-d](./images/darken.png)
+![settings-en-l](./images/lighten.png)
 
 (I am using the [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) theme.)
 
