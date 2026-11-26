@@ -7,9 +7,21 @@ This is a KDE configuration based on GTK4 that features a macOS-like appearance.
 
 (I am using the [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) theme.)
 
-Dependencies
-
-Installation
+# Installation
+Dependency packages\
+pacman
+```bash
+sudo pacman -S python-gobject gtk4 libadwaita
+```
+apt
+```bash
+sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1
+```
+dnf
+```bash
+sudo dnf install python3-gobject gtk4 libadwaita
+```
+Installation procedure
 ```bash
 git clone https://github.com/takosu12342025/mac-kde-settings
 cd mac-kde-settings
