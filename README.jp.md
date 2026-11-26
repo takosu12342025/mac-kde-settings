@@ -4,7 +4,8 @@
 このアプリはGTK4とpythonでできており、\
 mac osのUIをオマージュしたアプリケーションです。
 # 画像
-![設定jp](/images/mac-kde-settings-jp.png)\
+![settings-jp-d](./images/darkjp.png)
+![settings-jp-l](./images/lightjp.png)
 (自分は [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) テーマを使用しています。)
 
 # インストール＆アンインストール
