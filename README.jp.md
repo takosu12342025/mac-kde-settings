@@ -8,7 +8,7 @@ mac osのUIをオマージュしたアプリケーションです。
 ![settings-jp-l](./images/lightjp.png)
 (自分は [macos-tahoe-liquid-kde](https://github.com/lestercorderomurillo/macos-tahoe-liquid-kde) テーマを使用しています。)
 
-# インストール＆アンインストール
+# インストール
 依存パッケージ\
 pacman
 ```bash
