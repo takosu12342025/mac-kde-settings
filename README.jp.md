@@ -27,11 +27,7 @@ git clone https://github.com/takosu12342025/mac-kde-settings
 cd mac-kde-settings
 bash install.sh
 ```
-アンインストール方法
-```bash
-cd mac-kde-settings
-bash uninstall.sh
-```
+
 
 
 # 依存関係
