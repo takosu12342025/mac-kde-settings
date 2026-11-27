@@ -27,6 +27,11 @@ git clone https://github.com/takosu12342025/mac-kde-settings
 cd mac-kde-settings
 bash install.sh
 ```
+# Uninstallation
+```bash
+cd mac-kde-settings
+bash install.sh --uninstall
+```
 
 # Dependencies
 Required runtime and UI libraries (the application will not launch without these):\
