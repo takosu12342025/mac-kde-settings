@@ -38,3 +38,23 @@ Required runtime and UI libraries (the application will not launch without these
 # Note
 This app was created using AI.\
 It was translated using Google Translate.\
+
+# GNOME-KDE
+The new version now supports GNOME!\
+If it doesn't work, please run the following:
+```bash
+sudo python3 -c '
+p = "/usr/local/bin/mac-kde-settings"
+with open(p, "r") as f:
+    s = f.read()
+old = "info = Gio.DesktopAppInfo.new(fmt.format(name))"
+new = """try:
+                    info = Gio.DesktopAppInfo.new(fmt.format(name))
+                except TypeError:
+                    info = None"""
+assert old in s, "Could not find the target section"
+with open(p, "w") as f:
+    f.write(s.replace(old, new, 1))
+print("Fix applied successfully!")
+'
+```
