@@ -41,3 +41,25 @@ bash install.sh
 # 注意
 このアプリはAIを使用して作られています
 
+# GNOME-KDE
+新バージョンでGNOMEにも対応しました！\
+もしできないのなら
+```bash
+sudo python3 -c '
+p = "/usr/local/bin/mac-kde-settings"
+with open(p, "r") as f:
+    s = f.read()
+old = "info = Gio.DesktopAppInfo.new(fmt.format(name))"
+new = """try:
+                    info = Gio.DesktopAppInfo.new(fmt.format(name))
+                except TypeError:
+                    info = None"""
+assert old in s, "該当箇所が見つかりませんでした"
+with open(p, "w") as f:
+    f.write(s.replace(old, new, 1))
+print("修正が完了しました！")
+'
+```
+をじっこうしてください!
+
+
