@@ -20,7 +20,7 @@ sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1
 ```
 dnf
 ```bash
-sudo dnf install python3-gobject gtk4 libadwaita
+sudo dnf install python3-gobject gtk4 lbash install.sh --uninstallibadwaita
 ```
 インストール方法
 ```bash
@@ -29,8 +29,11 @@ cd mac-kde-settings
 bash install.sh
 ```
 
-
-
+# アンインストール
+```bash
+cd mac-kde-settings
+bash install.sh --uninstall
+```
 # 依存関係
 必須のランタイム・UIライブラリ（これがないと起動しない）\
 
